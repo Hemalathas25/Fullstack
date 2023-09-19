@@ -1,0 +1,138 @@
+#header{
+display: grid;
+grid-template-columns: 2fr 5fr;
+height: 350px;
+}
+  
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+padding: 50px;
+height: 100%;
+background-color: #f0f0f0;
+border: 5px solid black;
+border-radius: 15px;
+}
+
+hr {
+border-width: 100%;
+border: none; 
+border-top: 3px solid black; 
+margin: 0px 0;
+}
+
+.profileImage{
+width: 350px;
+height: 350px;
+margin-bottom: 50px;
+object-fit: cover;
+object-position: center;
+border-radius: 5px;
+}
+
+.professional-container{
+margin-top: 30px;
+display: flex;
+gap: 50px
+}
+
+.left-container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.right-container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.vertical-line {
+width: 1px;
+height: 100px; /* Adjust the height as needed */
+background-color: black;
+margin: 0 auto; /* Center the line horizontally */
+}
+
+.finalsection{
+ /* margin-top: 30px; */
+display: flex;
+gap: 30px;
+justify-content:space-around;
+}
+
+.skills{
+gap: 20px;
+padding-top: 10px;}
+
+.education{
+border: 3px solid black;
+border-top: 0px;
+border-bottom: 0px;
+padding: 0px 25px;
+padding-top: 10px;
+}    
+    
+.contact {
+padding-top: 10px;
+}
+
+#popupbox{
+display: flex;
+position: absolute;
+width: 30%;
+margin: 20vh auto 0 auto;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+border-radius: 5px;
+padding: 30px;
+}
+    
+h3{
+text-align: center;
+color: white;
+}
+    
+#popupbox{
+color: white;
+border: 1px white;
+border-radius: 5px;
+padding: 5px;
+margin: 10px 0px;
+cursor: pointer;
+font-size: 15px;
+width: 30%;
+
+
+}
+      
+#popupbox input{
+
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 1px white;
+        border-radius: 3px;
+      }
+
+ #popupbox label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #popupbox button {
+    background-color: rgb(232, 238, 240);
+    color: rgb(199, 28, 28);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    padding-top: 5px;
+  }
+  #editButton,
+  #saveButton {
+    cursor: pointer;
+    margin-top: 5px;
+  }
